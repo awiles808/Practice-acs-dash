@@ -1,0 +1,19 @@
+html{
+    background: rgb(15,15,20)
+}
+
+.title{
+    color: #e1e9f2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 25px;
+}
+
+#macho-man{
+  margin: 25px;
+  margin-top: 10px;
+  width: 30%;
+  height: auto;
+  display: none;
+}
