@@ -2,18 +2,26 @@ html{
     background: rgb(15,15,20)
 }
 
-.title{
-    color: #e1e9f2;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 3rem;
-    margin: 25px;
+#map{
+    height: 100vh;
+    width: 100%;
 }
 
-#macho-man{
-  margin: 25px;
-  margin-top: 10px;
-  width: 30%;
-  height: auto;
-  display: none;
+.map-console{
+    background-color: rgba(0,0,0, 0.65);
+    position: absolute;
+    width: 350px;
+    height: 175px;
+    top: 25px;
+    left: 25px;
+    z-index: 999;
+    border-radius: 7px;
+}
+
+.title{
+    color: #d4e3da;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    margin: 25px;
 }
