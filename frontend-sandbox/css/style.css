@@ -8,20 +8,28 @@ html{
 }
 
 .map-console{
-    background-color: rgba(0,0,0, 0.65);
+    background-color: rgba(0,0,0, 0.80);
     position: absolute;
-    width: 350px;
+    width: 325px;
     height: 175px;
     top: 25px;
     left: 25px;
     z-index: 999;
-    border-radius: 7px;
+    padding: 15px;
 }
 
-.title{
-    color: #d4e3da;
+.selection-text{
+    color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18pt;
-    margin: 25px;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+#county-dd{
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    padding: 3px;
 }
