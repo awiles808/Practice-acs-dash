@@ -21,6 +21,7 @@ $(document).ready(function() {
     $('#county-dd').change(function() {
         gFips = $(this).children("option:selected").val();
         console.log(gFips)
+        selectCountyMap(gFips)
     });
 
 
