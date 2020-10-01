@@ -11,7 +11,6 @@ html{
     background-color: rgba(0,0,0, 0.80);
     position: absolute;
     width: 325px;
-    height: 175px;
     top: 25px;
     left: 25px;
     z-index: 999;
@@ -23,6 +22,7 @@ html{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 14pt;
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -32,4 +32,5 @@ html{
     font-weight: 400;
     font-size: 12pt;
     padding: 3px;
+    margin-bottom: 10px;
 }
