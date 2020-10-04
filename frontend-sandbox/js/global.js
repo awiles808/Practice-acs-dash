@@ -1,0 +1,2 @@
+var gFips = "";
+var selectedCounty = "";
